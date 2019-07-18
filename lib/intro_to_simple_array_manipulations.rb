@@ -18,6 +18,6 @@ end
 
 def pop_with_args(array, argument)
   
-  array.pop[argument]
+  argument.times do array.pop
   
 end
